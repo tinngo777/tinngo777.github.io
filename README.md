@@ -26,6 +26,3 @@ css: <a href="https://www.flaticon.com/free-icons/css" title="css icons">Css ico
 
 html: <a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a>
 
-mysql: <a href="https://www.flaticon.com/free-icons/mysql" title="mysql icons">Mysql icons created by pocike - Flaticon</a>
-
-github: <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by riajulislam - Flaticon</a>
