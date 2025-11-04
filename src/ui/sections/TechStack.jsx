@@ -1,29 +1,49 @@
+import python from "../../assets/python.png";
+import java from "../../assets/java.png";
+import cIcon from "../../assets/letter-c.png";
+import js from "../../assets/js.png";
+import sql from "../../assets/sql.png";
+import css from "../../assets/css-3.png";
+import html from "../../assets/html.png";
+import react from "../../assets/react.svg";
+import streamlit from "../../assets/streamlit.svg";
+import ros from "../../assets/ros.svg";
+import qt from "../../assets/qt.svg";
+import tailwind from "../../assets/tailwindcss.png";
+import restapi from "../../assets/restapi.svg";
+import firebase from "../../assets/firebase.png";
+import mysql from "../../assets/mysql.png";
+import github from "../../assets/github.svg";
+import junit from "../../assets/junit.png";
+import linux from "../../assets/linux.png";
+import bash from "../../assets/bash.svg";
+
 export default function TechStack() {
   const stack = {
     languages: [
-      { icon: "python.png", name: "Python" },
-      { icon: "java.png", name: "Java" },
-      { icon: "letter-c.png", name: "C" },
-      { icon: "js.png", name: "JavaScript" },
-      { icon: "sql.png", name: "SQL" },
-      { icon: "css-3.png", name: "CSS" },
-      { icon: "html.png", name: "HTML" },
+      { icon: python, name: "Python" },
+      { icon: java, name: "Java" },
+      { icon: cIcon, name: "C" },
+      { icon: js, name: "JavaScript" },
+      { icon: sql, name: "SQL" },
+      { icon: css, name: "CSS" },
+      { icon: html, name: "HTML" },
     ],
     frameworks: [
-      { icon: "react.svg", name: "React.js" },
-      { icon: "streamlit.svg", name: "Streamlit" },
-      { icon: "ros.svg", name: "ROS 2" },
-      { icon: "qt.svg", name: "Qt" },
-      { icon: "tailwindcss.png", name: "TailwindCSS" },
-      { icon: "restapi.svg", name: "REST APIs" },
+      { icon: react, name: "React.js" },
+      { icon: streamlit, name: "Streamlit" },
+      { icon: ros, name: "ROS 2" },
+      { icon: qt, name: "Qt" },
+      { icon: tailwind, name: "TailwindCSS" },
+      { icon: restapi, name: "REST APIs" },
     ],
     tools: [
-      { icon: "firebase.png", name: "Firebase" },
-      { icon: "mysql.png", name: "MySQL" },
-      { icon: "github.svg", name: "GitHub" },
-      { icon: "junit.png", name: "JUnit" },
-      { icon: "linux.png", name: "Linux" },
-      { icon: "bash.svg", name: "Bash" },
+      { icon: firebase, name: "Firebase" },
+      { icon: mysql, name: "MySQL" },
+      { icon: github, name: "GitHub" },
+      { icon: junit, name: "JUnit" },
+      { icon: linux, name: "Linux" },
+      { icon: bash, name: "Bash" },
     ],
   };
 
@@ -52,7 +72,7 @@ export default function TechStack() {
                          hover:scale-105 hover:shadow-[0_0_12px_rgba(255,255,255,0.15)]"
             >
               <img
-                src={`/src/assets/${item.icon}`}
+                src={item.icon}
                 alt={item.name}
                 className="h-10 w-10 mb-2 object-contain"
               />
@@ -77,7 +97,7 @@ export default function TechStack() {
                          hover:scale-105 hover:shadow-[0_0_12px_rgba(255,255,255,0.15)]"
             >
               <img
-                src={`/src/assets/${item.icon}`}
+                src={item.icon}
                 alt={item.name}
                 className="h-10 w-10 mb-2 object-contain"
               />
@@ -102,7 +122,7 @@ export default function TechStack() {
                          hover:scale-105 hover:shadow-[0_0_12px_rgba(255,255,255,0.15)]"
             >
               <img
-                src={`/src/assets/${item.icon}`}
+                src={item.icon}
                 alt={item.name}
                 className="h-10 w-10 mb-2 object-contain"
               />
