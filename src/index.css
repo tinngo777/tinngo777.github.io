@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+/* design tokens */
+:root {
+  --bg: 14 15% 6%;
+  --card: 222 44% 9%;
+  --muted: 220 14% 60%;
+  --accent: 166 78% 55%;
+  --accent-2: 268 89% 70%;
+}
+:root.light {
+  --bg: 210 33% 98%;
+  --card: 210 40% 96%;
+  --muted: 220 14% 35%;
+  --accent: 166 78% 35%;
+  --accent-2: 268 75% 52%;
+}
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-[hsl(var(--bg))] text-white selection:bg-emerald-300/40 selection:text-emerald-950;
+}
+
+/* glass card */
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-xl shadow-lg;
+}
+
+/* gradient text helper */
+.gradient-text {
+  background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-2)));
+  -webkit-background-clip: text;
+  background-clip: text; color: transparent;
+}
+
+/* hero blob glow */
+.hero-blob {
+  filter: blur(60px);
+  background: radial-gradient(400px 240px at 30% 20%, #6fffea40, transparent 60%),
+              radial-gradient(420px 260px at 70% 40%, #b88cff35, transparent 60%);
+}

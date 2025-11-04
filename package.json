@@ -1,0 +1,28 @@
+{
+  "homepage": "https://tinngo777.github.io/",
+  "name": "portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:pages": "cross-env GH_PAGES=1 vite build"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/postcss": "^4.1.14",
+    "@tailwindcss/typography": "^0.5.15",
+    "@vitejs/plugin-react": "^4.3.0",
+    "cross-env": "^7.0.3",
+    "tailwindcss": "^4.0.0",
+    "vite": "^7.1.9"
+  }
+}
