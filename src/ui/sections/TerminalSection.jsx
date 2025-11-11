@@ -12,7 +12,7 @@ const PROMPT = "tinngo@portfolio:~$";
 const bullets = [
   "SWE senior @ UTA",
   "Full-stack Developer",
-  "Linux Enthusiast (I use Arch btw😎)",
+  "Linux and Open-Source Lover (I use Arch btw 😎)",
   "Bedroom Musician",
 ];
 
